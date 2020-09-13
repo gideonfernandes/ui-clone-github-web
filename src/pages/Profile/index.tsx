@@ -1,8 +1,9 @@
 import React from 'react';
 
-import { Container, Main, LeftSide, RightSide } from './styles';
+import { Container, Main, LeftSide, RightSide, Repositories } from './styles';
 
 import ProfileData from '../../components/ProfileData';
+import RepositoryCard from '../../components/RepositoryCard';
 
 const Profile: React.FC = () => {
   return (
@@ -22,7 +23,25 @@ const Profile: React.FC = () => {
           />
         </LeftSide>
 
-        <RightSide></RightSide>
+        <RightSide>
+          <Repositories>
+            <h2>Repositórios aleatórios</h2>
+
+            <div>
+              {[1, 2, 3, 4, 5, 6].map(number => (
+                <RepositoryCard
+                  key={number}
+                  username={'gideonfernandes'}
+                  reponame={'contact-keeper'}
+                  description={'Create an account & store your contact list'}
+                  language={number % 3 === 0 ? 'Javascript' : 'Typescript'}
+                  stars={8}
+                  forks={4}
+                />
+              ))}
+            </div>
+          </Repositories>
+        </RightSide>
       </Main>
     </Container>
   );
