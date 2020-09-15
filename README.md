@@ -11,6 +11,7 @@ This project was developed with the following technologies:
 - HTML
 - CSS
 - ReactJS
+- Typescript
 - Styled Components
 - React Calendar Heatmap
 - Fetch API
