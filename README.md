@@ -1,44 +1,52 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ui-clone-github-web
 
-## Available Scripts
+## Project
 
-In the project directory, you can run:
+***EN:*** This project is an incredible UI clone developed in React during the class taught by the great Guilherme Rods of Rocketseat. In this application in addition to faithfully cloning the original UI, we consume real data from the github API and we also implement dark mode in the project!
 
-### `yarn start`
+***PT-BR:*** Este projeto é uma incrível UI clone desenvolvida em React durante a aula ministrada pelo grande Guilherme Rods da Rocketseat. Nesta aplicação além de clonar fielmente a UI original, consumimos dados reais da API do github e implementamos também o dark mode no projeto!
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This project was developed with the following technologies:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- HTML
+- CSS
+- ReactJS
+- Styled Components
+- React Calendar Heatmap
+- Fetch API
+- {...}
+***
 
-### `yarn test`
+## Preview
+![preview](preview.png)
+***
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Dark Mode Preview
+![preview-dark](preview-dark.png)
+***
 
-### `yarn build`
+### How To Install
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To clone and run this application, you'll need Git, Node.js & NPM/Yarn installed on your computer.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+From your command line:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# Clone this repository
+$ git clone https://github.com/gideonfernandes/ui-clone-github-web.git
 
-### `yarn eject`
+# Go into the repository
+$ cd ui-clone-github-web
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Install dependencies
+$ yarn install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Start server
+$ yarn start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# running on port 3000
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### License
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is under the MIT license.
